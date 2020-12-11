@@ -1,0 +1,338 @@
+/* Styles go here */
+
+body {
+    background: radial-gradient(circle, rgba(61,21,90,1) 20%, rgba(37,18,61,1) 60%);
+} 
+
+.container-div{ 
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: center;
+    margin-top: 30px;
+}
+
+.center-link{
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: center;
+    margin-top:10px;
+}
+
+.link-text{
+    color:white;
+    font-size: 20px;
+    text-decoration: underline
+
+}
+
+.submit-button{
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: center;
+    margin-top: 45px;
+}
+
+.padding-top{
+    Align-Items: top;
+    Display: flex;;
+    Justify-Content: top;
+}
+
+.margin-topper{
+    margin-top: 50px;
+}
+
+.negative-margin-topper{
+    margin-top: -60px;
+    
+}
+
+.padding-bot{
+    padding-bottom: 15px;
+}
+
+.margin-right{
+    margin-right: 10px;
+
+}
+
+.margin-bot{
+    margin-bottom: 30px;
+}
+
+
+.buy-background{
+    background-color:rgb(32, 34, 39);
+    border: solid;
+    border-color: rgb(22, 24, 29, 0.6);
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px 1px rgb(22, 24, 29, 0.8);
+
+}
+
+.white-color{
+    color: rgb(255,255,255);
+}
+
+.top-bar{
+    font-family: "Boulas Regular";
+    font-size: 20px;
+}
+
+
+.img-3r{
+    margin-right: -5px;
+}
+
+.img-3l{
+    margin-left: -5px;
+}
+
+.backgrd-dropdown{
+    background-color:rgb(32, 34, 39);
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px; 
+
+}
+
+.icon-dropdown{
+    color: rgb(255,255,255);
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.icon-dropdown:hover {
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px; 
+    background-color: rgb(51,23,70,0.4); 
+    color: rgb(255,255,255);
+}
+
+.icon-dropdown:active {
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px;
+    background: transparent;
+}
+
+.icon{
+    color: rgb(255,255,255);
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+
+button[type="button"]
+{
+    color:white;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    padding-left: 12px;
+}
+
+button[type="button"]:hover {
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px; 
+    background-color: rgb(51,23,70,0.4); 
+}
+
+button[type="button"]:active {
+    border: solid;
+    border-color:rgb(255,255,255,0.5);
+    border-width: 1px;
+    background: transparent;
+}
+
+button[type="submit"] {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.5);
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.2em;
+    width: 60%;
+    height: 50px;
+    font-size: 1.6em;
+    color:  rgb(255,255,255);
+    background-color: rgb(51,23,70);
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+button[type="submit"]:disabled {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.3);
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.2em;
+    width: 60%;
+    height: 50px;
+    font-size: 1.6em;
+    color:  rgb(255,255,255,0.5);
+    background-color: rgb(51,23,70, 0.5);
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+button[type="submit"]:hover {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.5);
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.2em;
+    width: 60%;
+    height: 50px;
+    font-size: 1.6em;
+    color:  rgb(255,255,255);
+    background-color: rgba(32,13,56,0.4);
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+button[type="submit"]:active {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.5);
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.2em;
+    width: 60%;
+    height: 50px;
+    font-size: 1.6em;
+    color:  rgb(255,255,255);
+    background-color: rgb(51,23,70);
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.input {
+  position: relative;
+  font-size: 1.5em;
+  background: transparent;
+  display: inline-block;
+  color: rgb(255,255,255);
+  width: 73%;
+}
+
+input {
+  font-family: inherit;
+  line-height: inherit;
+  color: #2e3750;
+  min-width: 12em;
+  border-style: none;
+  outline-width: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.borders2{
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    border-radius: 30px;
+    padding-left : 35px;
+    padding-right : 35px;
+    padding-top : 20px;
+    box-shadow: 10px 10px 5px 1px rgb(22, 24, 29, 0.8);
+
+}
+
+.rate{
+    margin-top: 1rem;
+    padding-left : 35px;
+    padding-right : 35px;
+    padding-top : 5px;
+    margin-bottom: -20px;
+}
+
+.load{
+    margin-bottom: -15px;
+    margin-top: -17px;
+
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: center;
+}
+
+div.popup {
+    position: fixed;
+    width: 25%;
+    height:50%;
+    top:25%;
+    left:38%;
+    background-color: rgb(51,23,70);;
+    display: flex;
+    flex-direction: column;
+
+    border: solid;
+    border-color: rgb(22, 24, 29, 0.6);
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px 1px rgb(22, 24, 29);
+}
+
+div.popup .transaction-icon {
+    font-size: 7rem;
+    color: white;
+    align-self: center;
+}
+
+div.popup span {
+    align-self: center;
+    font-size: 2rem;
+    color: white;
+
+    margin-bottom: 1rem;
+}
+
+div.popup a{
+    font-size: 1.4rem;
+    color: white;
+    align-self: center;
+    margin-bottom: 3rem;
+}
+
+div.popup button {
+    all: unset;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(32, 34, 39);
+    border-radius: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+div.popup button:hover {
+    all: unset;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    border-radius: 1rem;
+    background-color: rgb(30, 31, 36);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
