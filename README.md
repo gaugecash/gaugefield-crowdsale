@@ -11,7 +11,7 @@ The majority of the solutions rely heavily on traditional systems of value, expo
 Centralized cryptocurrency exchanges complicate the process of accessing stable cryptocurrencies adding to the factors that seem to block mainstream
 adoption.
 
-## The solution : a decentralized peer-to-peer stable cash system based on Ethereum Blockchain
+## The solution : a decentralized stable cash system
 
 We developed a monetary decentralized system (GAUs) based on the Blockchain Revolution Principles. Networked Integrity, Distributed Power, Value as Incentive, Security, Privacy, Rights Preserved, and Inclusion.
 
@@ -21,7 +21,11 @@ To learn more please visit our [site](https://www.gaugecash.com/) or see the [Wh
 
 ## GaufeFiled: BACKUP TOKEN 
 
-<img src="img/gauf-exp.png" align="center" />
+<div style="text-align:center"><img src="img/gauf-exp.png"/></div>
 
 ## Contact
 If you have questions please send us an email at wacapital@whiteappleby.com or join our [Telegram Channel](https://t.me/GaugeCash)
+
+## Disclaimer
+
+This paper is for general information purposes only. It does not constitute investment advice or a recommendation or solicitation to buy or sell any investment and should not be used in the evaluation of the merits of making any investment decision. It should not be relied upon for accounting, legal or tax advice or investment recommendations. This paper reflects current opinions of the authors and is subject to change without being updated.
