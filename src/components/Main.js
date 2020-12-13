@@ -25,7 +25,7 @@ class Main extends Component {
       <div id="content " className="mt-3">
         <div className="card mb-4 margin-topper buy-background" >
         <div className="container-div ">
-        <img src={gaugeFieldLogo} width="35%" alt="" className="center"/>
+        <img src={gaugeFieldLogo} width="25%" alt="" className="center"/>
         </div>
           <div className="card-body">
             {content}
