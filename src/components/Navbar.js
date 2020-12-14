@@ -14,7 +14,7 @@ class Navbar extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-        <img src={gaufLogo} width="140%" alt="logo" className="margin-right" />
+        <img src={gaufLogo} height="130px" alt="logo" className="margin-right" />
           {/* GaugeField Crowdsale */}
         </a>
 
