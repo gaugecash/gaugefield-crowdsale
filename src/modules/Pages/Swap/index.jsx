@@ -16,6 +16,7 @@ import { Formik, Form } from "formik";
 import { BsChevronDown } from "react-icons/bs";
 import { RiExchangeLine } from "react-icons/ri";
 import web3 from "web3";
+import "./index.css";
 
 const Component = ({
   linkBalance,

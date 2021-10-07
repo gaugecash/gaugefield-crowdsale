@@ -12,13 +12,13 @@ const Component = ({ account, loading }) => {
         justify="space-between"
         wrap="wrap"
         padding="1.5rem 4rem"
-        bg="#111111"
+        bg="#9c5ed6"
         color="white"
         boxShadow="0px 8px 32px rgba(84, 81, 81, 0.1)"
         height="185px"
         w="100%"
         data-testid="header-nav"
-        position="absolute"
+        //position="absolute"
         zIndex="10000"
       >
         <Flex align="center" mr={5}>

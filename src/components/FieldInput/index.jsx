@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FormControl, NumberInput, NumberInputField } from "@chakra-ui/react";
 import { Field } from "formik";
+import "./index.css";
 
 const Component = ({ name, values, isReadOnly }) => {
   const [value, setValue] = useState(0);

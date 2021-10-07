@@ -1,12 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
   margin: 0;
-  font-family: "Share Tech Mono", monospace !important;
+  font-family: "Poppins" !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Poppins", monospace;
 }
 
 .spin {

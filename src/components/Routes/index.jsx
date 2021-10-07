@@ -67,7 +67,7 @@ const Component = () => {
       loadBlockchainData();
     } else {
       window.alert("Select the Ethereum Mainet.");
-      window.location.reload();
+      //window.location.reload();
     }
     setLoading(false);
   };
